@@ -1,0 +1,102 @@
+body
+{
+    background-color:#f5f5f5;
+}
+
+footer
+{
+    background-color: #222;
+    color: whitesmoke;
+    padding: 5%;
+    text-align: center;
+}
+
+h1
+{
+    border-bottom: 1px solid darkcyan;
+}
+
+h2, h4, #contact
+{
+    text-align:center;
+}
+
+h3
+{
+    font-style: italic;
+    padding: 2%;
+}
+
+#sellIt .tinyPic
+{
+   margin-right: -3%;
+}
+
+#sellIt img
+{
+    width: 90%;
+    height: 90%;
+    margin: 1%;
+}
+
+
+#sellIt .col-sm-12
+{
+    text-align: center;
+}
+
+#sellIt p
+{
+    text-align: center;
+}
+
+#contact a
+{
+    text-decoration: none;
+}
+
+#sellIt .profile
+{
+    border-radius: 50%; 
+}
+
+.social
+{
+    font-size: 200%;
+    text-align: center;
+}
+
+.social i
+{
+    padding: 6%;
+}
+
+.social i:hover
+{
+    color: darkred;
+    cursor: pointer;
+}
+
+.slant
+{
+    font-style: italic;
+    color: darkred;
+}
+
+.caps
+{
+    font-variant: small-caps;
+    color: darkcyan;
+}
+
+.quote
+{
+    font-style: italic;
+}
+
+/*
+.jumbotron
+{
+    background-image: url(https://storage.googleapis.com/thehundreds/media/2016/06/grailed-has-failed-the-hundreds-opinion-peter-yeh.jpeg);
+}
+*/

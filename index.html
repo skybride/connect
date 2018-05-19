@@ -1,0 +1,125 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nick It</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/filter.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nick-It</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li>Wear-It <!--what nick is selling--></li>
+                <li>Sell-It <!--nick will sell clothes for people and take a commision--></li>
+                <li>Contact</li>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-youtube"></i>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <div id="wearIt">
+            <div id="myBtnContainer">
+                <div class="row">
+                    <div class="col"><button class="btn-block btn" onclick="filterSelection('brands')">Brands</button></div>
+                    <div class="col"><button class="btn-block btn" onclick="filterSelection('tops')">Tops</button></div>
+                    <div class="col"><button class="btn-block btn" onclick="filterSelection('bottoms')">Bottoms</button></div>
+                    <div class="col"><button class="btn-block btn active" onclick="filterSelection('all')">All</button></div>
+               </div> 
+            </div>
+            <div class="container">
+                <div class="filterDiv brands">Supreme</div>
+                <div class="filterDiv bottoms">Casual</div>
+                <div class="filterDiv brands">Raf Simmons</div>
+                <div class="filterDiv tops">Hoodies</div>
+                <div class="filterDiv bottoms">Jeans</div>
+                <div class="filterDiv tops">T's</div>
+                <div class="filterDiv brands">Gucci</div>
+                <div class="filterDiv bottoms">Yeezy</div>
+                <div class="filterDiv bottoms">Vans</div>
+                <div class="filterDiv bottoms">Chuck Taylor</div>
+            <!--    
+                <div class="filterDiv tops">Outer Wear</div>
+                <div class="filterDiv tops">Off-White</div>
+                <div class="filterDiv bottoms">Sweats</div>
+                <div class="filterDiv tops">Vintage</div>
+                <div class="filterDiv brands">Adidas</div>
+                <div class="filterDiv brands">Bape</div>
+                <div class="filterDiv brands">Undercover</div>
+                <div class="filterDiv brands">Nike</div>
+            -->
+            </div>
+        </div>
+        <div id="sellIt">
+            <h2>A passion for <span class="slant">style</span> with a love for <span class="caps">brands</span></h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <hr>
+                        <h3>About Moi</h3>
+                        <hr>
+                        <div class="social">
+                            <i class="fa fa-facebook"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-youtube"></i>
+                        </div>
+                        <p>Je suis Canadien, J’adore musique, J'aime la vie</p>
+                        <p>et bien sûr j'aime les vêtements</p>
+                        <div class="tinyPic">
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <img src="https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=height:880,fit:scale/output=format:jpg,quality:70/compress/qa70Flb5RhyDnQbUy2Zk" alt="chuck taylors">
+                                </div>
+                                <div class="col">
+                                    <img src="https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=height:880,fit:scale/output=format:jpg,quality:70/compress/rh9s7ooSCKh6gVglGqQs" alt="chuck taylors">
+                                </div>
+                                <div class="col">
+                                    <img src="https://process.fs.grailed.com/AJdAgnqCST4iPtnUxiGtTz/cache=expiry:max/rotate=deg:exif/resize=height:880,fit:scale/output=format:jpg,quality:70/compress/5GngvoubTjRH6W1lsIK2" alt="chuck taylors">
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <img class="profile" src="https://scontent.fymy1-2.fna.fbcdn.net/v/t1.0-9/28059231_1319037658202557_3352041065306405906_n.jpg?_nc_cat=0&oh=093a66645d834e86b773b4fb35b320cb&oe=5B8899DD" alt="nickLabbe">
+                    </div>
+                </div>
+            </div>
+            <p class="quote">Clothes have always meant more to me than color coordination. Each piece has meaning and value as you place it on your body. Seperately unique but if collaborated right, each assemble creates a statement that outlines your vibe and aura.</p>
+        </div>
+        <div id="contact">
+            <hr>
+            <a href="https://www.grailed.com/"><h3>Grailed Feedback</h3></a>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>Date:</p>
+                    </div>
+                    <div class="col">
+                        <p>Picture of item sold</p>
+                    </div>
+                    <div class="col">
+                        <p>Review</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright 2018@skybride.ca</p>
+    </footer>
+    <script src="assets/js/filter.js"></script>
+    <script src="assets/js/carousel.js"></script>
+    <script src="assets/js/clothesHide.js"></script>
+</body>
+</html>

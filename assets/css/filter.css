@@ -1,0 +1,74 @@
+
+.filterDiv
+{
+    float: left;
+    background-color: darkcyan;
+    color:#ffffff;
+    width:6em;
+    line-height: 100px;
+    text-align: center;
+    margin: 0.13em;
+    display:none;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) 
+{
+    .filterDiv
+    {
+        width:100%;
+        margin: 1% 0;
+    }
+}
+
+.filterDiv:hover
+{
+    background-color: darkred;
+    color:lightcyan;
+}
+
+.show
+{
+    display: block;
+} 
+
+.container #wearIt .container
+{
+    margin: 2% 4% 2% 3.5%;
+    overflow:hidden;
+}
+
+@media (max-width: 576px)
+{
+    .container #wearIt .container
+    {
+        margin: 0;
+    }
+}
+
+.btn {
+    border: none;
+    outline: none;
+    padding: 0.75em 1em;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+@media (max-width: 576px)
+{
+    .btn
+    {
+        margin-bottom: 1%;
+    }
+}
+
+.btn:hover
+{
+    background-color: #ddd;
+}
+
+.btn.active
+{
+    background-color: #666;
+    color: white;
+}
